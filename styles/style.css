@@ -52,12 +52,13 @@ section#redes-sociais > a > img {
     height: 50px;
     border-radius: 50%;
     margin: 10px 10px 15px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.719);
 }
 
-section#redes-sociais > a > img:hover {
-    transition: 0.1s ease-in-out;
-    box-shadow: 1px 1px 10px black;
+section#redes-sociais img:hover {
+    transition: 0.2s;
+    box-shadow: 5px 5px 10px black;
     border: 1px solid white;
     transform: translate(-2px, -2px);
+    transition: border 1s;
 }
