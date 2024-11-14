@@ -62,3 +62,7 @@ section#redes-sociais img:hover {
     transform: translate(-2px, -2px);
     transition: border 1s;
 }
+
+section#redes-sociais img:active {
+    transform: scale(95%);
+}
