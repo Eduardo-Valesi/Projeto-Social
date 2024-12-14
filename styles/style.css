@@ -48,7 +48,6 @@ section#redes-sociais {
 }
 
 section#redes-sociais > a > img {
-    position: relative;
     height: 50px;
     border-radius: 50%;
     margin: 10px 10px 15px;
